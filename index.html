@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempeture Convert</title>
+    <!-- Font-Awesome -->
+     <link 
+     rel="stylesheet" 
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+     crossorigin="anonymous" 
+     referrerpolicy="no-referrer"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!-- JS -->
+    <script src="JS/script.js" defer></script>
+</head>
+<body>
+    <main id="central">
+        <section id="container">
+            <div id="title">
+                <i class="fa-solid fa-cloud"></i>
+                <h1>Temperature convert</h1>       
+                <i class="fa-solid fa-sun"></i>
+            </div>
+            <form id="form-container">
+                <div id="numbers-question">
+                    <label for="number">Enter the temperature:</label>
+                    <input type="number" name="number" id="number">
+                    <select id="type-result">
+                        <option value="celsius" id="celsius">Celsius</option>
+                        <option value="fahrenheit" id="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin" id="kelvin">Kelvin</option>
+                    </select>
+                    <button id="result-btn"> Result</button> </div>
+                <div id="results" class ="hide">
+                    <h4> In <span id="degree-chosen"></span> the degree is <span id="result"></span></h4>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,85 @@
+/* Geral */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow: 100vh;
+    background: linear-gradient(210deg, #1ad7c4 0%, #0306e3 200%);
+}
+
+
+/* Focus */
+#central{
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#container{
+    background-color: #eeeeee;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+/* title */
+#title{
+    display: flex;
+}
+.fa-cloud,
+.fa-sun{
+    font-size: 36px;
+    margin: 0 16px;
+}
+.fa-cloud{
+    color: #ffffff;
+}
+.fa-sun{
+    color: #e7cc18;
+}
+
+/* form */
+#form-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#number{
+    border: 2px solid #0e0e0e;
+    border-radius: 12px;
+}
+input[type="number"] {
+    height: 26px;
+    text-align: center;
+    width: 60px;
+}
+/* results */
+#result-btn{
+    background-color: #1662fa;
+    border: 2px solid #098dfa;
+    color: #eaeaea;
+    border-radius: 8px;
+    padding: 2px 6px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+#result-btn:hover{
+    opacity: 1;
+}
+#results{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.hide{
+    display: none;
+}
